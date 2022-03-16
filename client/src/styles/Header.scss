@@ -1,0 +1,47 @@
+nav {
+    background: #212121;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  
+  }
+  
+  nav ul > * {
+    margin-right: 1rem;
+  }
+  
+  .nav-link:hover{
+      color: black
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  nav ul .logo{
+      position: absolute;
+      left: 2%;
+      top: 10%;
+      align-self: center;
+      font-size: 1.8rem;
+      font-weight: bolder;
+  }
+  
+  
+  
+  
